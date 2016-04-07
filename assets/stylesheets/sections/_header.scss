@@ -19,7 +19,12 @@
         color: white;
       }
     }
-  }
+    
+    .mw_logo_btn{      
+      display: inline-block;
+    }
+  }  
+  
   
   .mw_header_bottom {
     width: 100%;
@@ -29,6 +34,7 @@
     .mw_search {
       display: inline-block;
       width: 75%;
+      height: 35px;
       position: relative;
       
       input[type='text']{
@@ -36,7 +42,7 @@
         background-color: #f1f0f0;
         font-size: 13px;
         padding: 4px;
-        height: 23px;
+        height: 33px;
         margin: 0;
         width: 100%;
         display: block;
